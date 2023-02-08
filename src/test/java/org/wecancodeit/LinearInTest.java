@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+// NOTE: in all cases, each of the two arrays will be sorted (in non-decreasing order).
+
 class LinearInTest {
     @Test
     void test0_0() {
