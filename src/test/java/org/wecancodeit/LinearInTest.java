@@ -56,6 +56,26 @@ class LinearInTest {
     }
 
     @Test
+    void test122_12() {
+        assertTrue(new LinearIn().linearIn(
+                new int[]{1, 2, 2},
+                new int[]{1, 2}));
+    }
+    @Test
+    void test12_122() {
+        assertTrue(new LinearIn().linearIn(
+                new int[]{1, 2},
+                new int[]{1, 2, 2}));
+    }
+    @Test
+    void test122_122() {
+        assertTrue(new LinearIn().linearIn(
+                new int[]{1, 2, 2},
+                new int[]{1, 2, 2}));
+    }
+
+
+    @Test
     void test12_13() {
         assertFalse(new LinearIn().linearIn(
                 new int[]{1, 2},
